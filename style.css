@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    font-family: "Josefin Sans", sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100vh;
+    padding: 20px 20px;
+    background-color:antiquewhite;
+}
+
+
+.josefin-sans-uniquifier{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+nav{
+    padding: 25px 25px;
+    display: flex;
+    flex-direction: column;
+}
+a{
+    padding: 15px;
+    text-decoration: none;
+    color: #dc143c;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+h1{
+    color:#ff4500;
+}
+section{
+    height: 100vh;
+    border: 1px solid magenta;
+}
+
+#html{
+    background-color: #deb887;
+}
+#css{
+    background-color: #ff7f50;
+}
+#jss{
+background-color: #ffebcd;
+}
+#game-dev{
+    background-color: #ff7f50;
+
+}
+#vr{
+background-color: #7fffd4;
+}
+section>h1{
+    color: black;
+}
